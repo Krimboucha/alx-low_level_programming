@@ -9,8 +9,6 @@ int main(void)
 	int i;
 	int j;
 	int k;
-	int y = 44;
-	int z = 32;
 
 	for (i = 48; i <= 57; i++)
 	{
@@ -31,8 +29,8 @@ int main(void)
 					}
 					else
 					{
-					putchar(y);
-					putchar(z);
+					putchar(',');
+					putchar(' ');
 					}
 					}
 				}
