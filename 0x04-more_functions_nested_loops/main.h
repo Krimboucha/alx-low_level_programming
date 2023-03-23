@@ -1,14 +1,8 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-int _isupper(int c);
-/**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - checks if uppercase
+ * c: character to check
+ * Return: 1 or 0
  */
 int _isupper(int c);
