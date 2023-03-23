@@ -1,4 +1,3 @@
-#ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
 /**
  * _isupper - checks if uppercase
