@@ -6,7 +6,8 @@
  */
 int _isupper(int c);
 /**
- * _isdigit - checks if digit
+ * _idigit - checks if character is
+ * a digit (0-9) or not.
  * @c: character to check
  * Return: 1 or 0
  */
