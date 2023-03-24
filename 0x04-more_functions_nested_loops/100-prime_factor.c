@@ -1,6 +1,10 @@
 #include <stdio.h>
-
-int main() {
+/**
+ * main - main function
+ *
+ * Return 0
+ */
+int main(void) {
 	long int n;
 	long int factor;
 	long int largest_factor;
@@ -23,5 +27,5 @@ int main() {
 	}
 
 	printf("%ld\n", largest_factor);
-	return 0;
+	return (0);
 }
