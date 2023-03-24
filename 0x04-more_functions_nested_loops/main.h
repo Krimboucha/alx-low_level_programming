@@ -19,3 +19,15 @@ int _isdigit(int c);
  * Return: result of a*b
  */
 int mul(int a, int b);
+/**
+ * print_numbers - prints numbers
+ * 0 through 9.
+ */
+void print_numbers(void);
+/**
+ * _putchar - writes the character c
+ * to stdout
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
+int _putchar(char c);
