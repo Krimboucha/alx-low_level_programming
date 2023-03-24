@@ -12,7 +12,6 @@ int main(void) {
 	n = 612852475143;
 	factor = 2;
 	largest_factor = 0;
-
 	while (n > 1)
 	{
 		if (n % factor == 0)
@@ -25,7 +24,6 @@ int main(void) {
 			factor++;
 		}
 	}
-
 	printf("%ld\n", largest_factor);
 	return (0);
 }
