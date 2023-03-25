@@ -6,4 +6,9 @@
  * Return 0
  */
 int _putchar(char c);
+/**
+ * print_alphabet - prints the alphabet in lower case
+ *
+ */
+void print_alphabet(void);
 #endif
