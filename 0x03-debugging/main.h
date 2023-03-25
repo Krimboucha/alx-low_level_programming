@@ -5,6 +5,7 @@
  * positive_or_negative - prints if an int is positive or negative or zero
  * @i: int to be checked
  */
+
 void positive_or_negative(int i);
 
 /**
@@ -25,6 +26,7 @@ int largest_number(int a, int b, int c);
 */
 
 int convert_day(int month, int day);
+
 /**
 * print_remaining_days - takes a date and prints how many days are
 * left in the year, taking leap years into account
@@ -33,5 +35,7 @@ int convert_day(int month, int day);
 * @year: year
 * Return: void
 */
+
 void print_remaining_days(int month, int day, int year);
+
 #endif
