@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	long int n;
-	long int factor;
-	long int largest_factor;
+	int n;
+	int factor;
+	int largest_factor;
 
 	n = 612852475143;
 	factor = 2;
@@ -27,6 +27,6 @@ int main(void)
 			factor++;
 		}
 	}
-	printf("%ld\n", largest_factor);
+	printf("%d\n", largest_factor);
 	return (0);
 }
