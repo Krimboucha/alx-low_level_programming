@@ -1,10 +1,13 @@
 #include <stdio.h>
+
 /**
  * main - main function
  *
  * Return 0
- */
-int main(void) {
+*/
+
+int main(void)
+{
 	long int n;
 	long int factor;
 	long int largest_factor;
