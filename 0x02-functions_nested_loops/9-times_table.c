@@ -24,7 +24,11 @@ void times_table(void)
 				continue;
 			}
 			_putchar(',');
+			if (i * j < 10)
+			{
+				_putchar(' ');
+			}
 			_putchar(' ');
-		}	
+		}
 	}
 }
