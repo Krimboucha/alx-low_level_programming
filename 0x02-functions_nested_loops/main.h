@@ -22,4 +22,11 @@ void print_alphabet_x10(void);
  * Return: 1 for lowercase or 0 if not
  */
 int _islower(int c);
+/**
+ * _isalpha - checks if character is alphabet
+ * @c: character to be checked
+ *
+ * Return: 1 if character is alphabet, 0 if not
+ */
+int _isalpha(int c);
 #endif
