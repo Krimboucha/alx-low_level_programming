@@ -50,4 +50,10 @@ int _abs(int n);
  * Return: last digit of int
  */
 int print_last_digit(int n);
+/**
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ *
+ * Return: void
+ */
+void jack_bauer(void);
 #endif
