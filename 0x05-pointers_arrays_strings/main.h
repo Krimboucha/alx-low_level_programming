@@ -3,7 +3,8 @@
 
 /**
  * reset_to_98 - resets pointer to 98
- * @n pointer to int to reset
+ * @a first pointer to int to switch
+ * @b second pointer to int to switch
  * Return void
  */
 
@@ -11,10 +12,16 @@ void reset_to_98(int *n);
 
 /**
  * swap_int - swaps the values of two integers
- * @a first pointer to switch
- * @b second pointer to switch
+ * @n pointer to int
  * return: void
  */
 
 void swap_int(int *a, int *b);
+/**
+ * _strlen - return length of string
+ * @s: pointer to char
+ *
+ * Return: length of string
+ */
+int _strlen(char *s);
 #endif
