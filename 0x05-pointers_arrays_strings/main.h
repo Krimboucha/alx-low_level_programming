@@ -32,4 +32,10 @@ int _strlen(char *s);
  */
 
 void _puts(char *str);
+/**
+ * _putchar - writes the character c
+ * @c: parameter to compare
+ * Return: 1 or 0
+ */
+int _putchar(char c);
 #endif
