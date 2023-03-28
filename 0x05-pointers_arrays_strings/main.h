@@ -54,4 +54,12 @@ void print_rev(char *s);
  */
 
 void puts2(char *str);
+
+/**
+ * puts_half - prints the second half of a string
+ * @str: pointer to char
+ * Return: void
+ */
+
+void puts_half(char *str);
 #endif
