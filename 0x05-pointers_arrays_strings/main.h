@@ -38,4 +38,12 @@ void _puts(char *str);
  * Return: 1 or 0
  */
 int _putchar(char c);
+
+/**
+ * print_rev - prints string in reverse
+ * @s: pointer to char
+ * Return: void
+ */
+
+void print_rev(char *s);
 #endif
