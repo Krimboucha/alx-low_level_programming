@@ -46,4 +46,12 @@ int _putchar(char c);
  */
 
 void print_rev(char *s);
+
+/**
+ * puts2 - prints every other char of a string
+ * @str: pointer to char
+ * Return: void
+ */
+
+void puts2(char *str);
 #endif
