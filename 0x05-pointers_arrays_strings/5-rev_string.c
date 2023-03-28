@@ -21,7 +21,7 @@ void rev_string(char *s)
 		tail++;
 	}
 	tail--;
-	for (i = 0; i < length/2; i++)
+	for (i = 0; i < length / 2; i++)
 	{
 		tmp = *tail;
 		*tail = *head;
