@@ -71,4 +71,14 @@ void puts_half(char *str);
  */
 
 char *_strcpy(char *dest, char *src);
+
+/**
+ * print_array - prints n elements of an array of integers
+ * @a: pointer to int
+ * @n: number of elements to print
+ *
+ * Return: void
+ */
+
+void print_array(int *a, int n);
 #endif
