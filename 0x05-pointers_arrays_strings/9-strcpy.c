@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * strcpy - copies a string
+ * *_strcpy - copies a string
  * @src: pointer to char
  * @dest: pointer to char
  * Return: void
