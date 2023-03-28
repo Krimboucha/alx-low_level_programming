@@ -62,4 +62,13 @@ void puts2(char *str);
  */
 
 void puts_half(char *str);
+
+/**
+ * strcpy - copies a string
+ * @src: pointer to char
+ * @dest: pointer to char
+ * Return: void
+ */
+
+char *_strcpy(char *dest, char *src);
 #endif

@@ -8,7 +8,8 @@
  * Return: void
  */
 
-char *_strcpy(char *dest, char *src) {
+char *_strcpy(char *dest, char *src)
+{
 	int i;
 
 	i = 0;
@@ -18,5 +19,5 @@ char *_strcpy(char *dest, char *src) {
 		i++;
 	}
 	dest[i] = '\0';
-	return (*dest);
+	return (dest);
 }
