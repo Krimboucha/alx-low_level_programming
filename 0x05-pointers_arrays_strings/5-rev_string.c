@@ -6,16 +6,15 @@
  * @s: pointer to char
  * Return: void
  */
-void rev_string(char *s) {
+void rev_string(char *s)
+{
 	int length;
 	int i;
-	char *head;
-	char *tail;
+	char *head = s;
+	char *tail = s;
 	char tmp;
 
 	length = 0;
-	*head = s;
-	*tail = s;
 	while (*tail != '\0')
 	{
 		length++;

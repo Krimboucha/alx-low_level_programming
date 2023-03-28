@@ -17,12 +17,14 @@ void reset_to_98(int *n);
  */
 
 void swap_int(int *a, int *b);
+
 /**
  * _strlen - return length of string
  * @s: pointer to char
  *
  * Return: length of string
  */
+
 int _strlen(char *s);
 
 /**
@@ -32,11 +34,13 @@ int _strlen(char *s);
  */
 
 void _puts(char *str);
+
 /**
  * _putchar - writes the character c
  * @c: parameter to compare
  * Return: 1 or 0
  */
+
 int _putchar(char c);
 
 /**
@@ -81,4 +85,12 @@ char *_strcpy(char *dest, char *src);
  */
 
 void print_array(int *a, int n);
+
+/**
+ * rev_string - reverse a string
+ * @s: pointer to char
+ * Return: void
+ */
+
+void rev_string(char *s);
 #endif
