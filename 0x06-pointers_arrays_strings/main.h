@@ -31,4 +31,14 @@ char *_strncat(char *dest, char *src, int n);
  */
 
 char *_strncpy(char *dest, char *src, int n);
+
+/**
+ * int _strcmp - compares two strings
+ * @s1: first string to be compared
+ * @s2: second string to be compared
+ * 
+ * Return: 0 if the two strings r similar, >0 if s1>s2 in ASCII, <0 if s1<s2 in ASCII
+ */
+
+int _strcmp(char *s1, char *s2);
 #endif
