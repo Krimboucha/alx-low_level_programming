@@ -5,7 +5,7 @@
  * @dest: pointer to char
  * @src: pointer to char
  * @n: number of characters to copy
- * return: p string
+ * return: dest string
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -16,15 +16,15 @@ char *_strncpy(char *dest, char *src, int n)
 	i = 0;
 	while (i < n && *src != '\0')
 	{
-		*dest = *src;
-		dest++;
+		*p = *src;
+		p++;
 		src++;
 		i++;
 	}
 	while (i < n)
 	{
-		*dest = '\0';
+		*p = '\0';
 		i++;
 	}
-	return (p);
+	return (dest);
 }
