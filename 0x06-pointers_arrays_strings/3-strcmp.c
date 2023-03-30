@@ -10,8 +10,9 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int counter = 0;
+	int counter;
 
+	counter = 0;
 	while (*s1 && (*s1 == *s2))
 	{
 		s1++;
@@ -19,11 +20,11 @@ int _strcmp(char *s1, char *s2)
 	}
 	if (*s1 > *s2)
 	{
-		counter++;
+		counter = 15;
 	}
 	else if (*s1 < *s2)
 	{
-		counter--;
+		counter = -15;
 	}
-	return counter;
+	return (counter);
 }
