@@ -5,6 +5,7 @@
  * @dest: pointer to char
  * @src: pointer to char
  * @n: number of characters to copy
+ *
  * return: dest string
  */
 
