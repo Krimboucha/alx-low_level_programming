@@ -69,4 +69,13 @@ char *string_toupper(char *s);
  */
 
 char *cap_string(char *s);
+
+/**
+ * leet - encodes a string into 1337
+ * @s: pointer to char
+ *
+ * Return: string
+ */
+
+char *leet(char *s);
 #endif
