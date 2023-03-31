@@ -4,8 +4,7 @@
  * @s1: first string to be compared
  * @s2: second string to be compared
  *
- * Return: 0 if the two strings r similar, positive if s1>s2 in ASCII,
- * negative if s1<s2 in ASCII
+ * Return value of string 
  */
 int _strcmp(char *s1, char *s2)
 {
