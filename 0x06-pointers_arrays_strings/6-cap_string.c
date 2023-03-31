@@ -1,14 +1,15 @@
 #include "main.h"
+
 /**
  * cap_string - capitalizes all words of a string
  * @s: pointer to char
  *
  * Return: string
  */
+
 char *cap_string(char *s)
 {
 	int i;
-	int c;
 	int j;
 	char tab[] = {' ', '\t', '\n',',','.',';', '!', '?','"', '(', ')','{','}'};
 
