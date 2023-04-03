@@ -40,4 +40,14 @@ char *_strchr(char *s, char c);
  */
 
 unsigned int _strspn(char *s, char *accept);
+
+/**
+ * set_string - sets the value of a pointer to a char 
+ * @s: pointer to a char pointer
+ * @ to: pointer to char
+ *
+ * Return: void
+ */
+
+void set_string(char **s, char *to);
 #endif
