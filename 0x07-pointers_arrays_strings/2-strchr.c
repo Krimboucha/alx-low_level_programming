@@ -2,14 +2,14 @@
 
 
 /**
+ * _strchr - locates a character in a string
+ * @s: pointer to char
+ * @c: character
  *
- *
- *
- *
- *
- *
+ * Return: pointer to char or NULL
  */
-har *_strchr(char *s, char c)
+
+char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
 	{
