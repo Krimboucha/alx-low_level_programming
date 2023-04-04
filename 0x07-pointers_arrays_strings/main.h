@@ -68,4 +68,20 @@ char *_strpbrk(char *s, char *accept);
  */
 
 char *_strstr(char *haystack, char *needle);
+
+/**
+ * print_chessboard - prints the chessboard
+ * @a: pointer to char
+ * Return: void
+ */
+
+void print_chessboard(char (*a)[8]);
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c);
 #endif
