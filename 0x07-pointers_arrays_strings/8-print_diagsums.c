@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - prints the sum of the two diagonals
- * @a: pointer to int
+ * print_diagsums - prints the sum of the
+ * two diagonals
+ * @a: pointer to the first int of a matrix
  * @size: int
  * Return: void
  */
