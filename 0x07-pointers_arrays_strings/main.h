@@ -84,4 +84,13 @@ void print_chessboard(char (*a)[8]);
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
+
+/**
+ * print_diagsums - prints the sum of the two diagonals
+ * @a: pointer to int
+ * @size: int
+ * Return: void
+ */
+
+void print_diagsums(int *a, int size);
 #endif
