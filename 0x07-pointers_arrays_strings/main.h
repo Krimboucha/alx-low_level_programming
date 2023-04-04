@@ -59,4 +59,13 @@ void set_string(char **s, char *to);
  */
 
 char *_strpbrk(char *s, char *accept);
+
+/**
+ * _strstr - locates a substring
+ * @haystack: pointer to char
+ * @needle: pointer to char
+ * Return: pointer to char or NULL
+ */
+
+char *_strstr(char *haystack, char *needle);
 #endif
