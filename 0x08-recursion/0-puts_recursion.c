@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _puts_recursion - that prints a string, followed by a new line
@@ -15,8 +15,8 @@ void _puts_recursion(char *s)
 	}
 	else
 	{
-		_putchar('*s');
+		_putchar(*s);
 		s++;
-		_puts_recursion(*s);
+		_puts_recursion(s);
 	}
 }
