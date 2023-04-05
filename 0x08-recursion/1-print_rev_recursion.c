@@ -14,20 +14,13 @@ void _print_rev_recursion(char *s)
 	counter = 0;
 	if (counter == 0)
 	{
-		while (*s)
-		{
-			s++;
-			counter = 1;
-		}
-		if (*s == '\0')
-		{
-			s--;
-		}
-	}
-	else
-	{
-		_putchar(*s);
-		s--;
+		s++;
 		_print_rev_recursion(s);
+	}
+	if (*s == '\0' || counter == 1)
+	{
+		s--;
+		_putchar(*s);
+		counter = 1;
 	}
 }
