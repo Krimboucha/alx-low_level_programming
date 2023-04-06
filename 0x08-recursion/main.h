@@ -55,4 +55,23 @@ int factorial(int n);
  */
 
 int _pow_recursion(int x, int y);
+
+/**
+ * real_function - checks if a number is prime
+ * @n: int
+ * @i: int
+ *
+ * Return: 1 if prime, 0 if not
+ */
+
+int real_function(int n, int i);
+
+/**
+ * is_prime_number - checks if a number is prime
+ * @n: int
+ *
+ * Return: 1 if prime, 0 if not
+ */
+
+int is_prime_number(int n);
 #endif
