@@ -81,5 +81,25 @@ int is_prime_number(int n);
  *
  * Return: 1 if it is, 0 if not
  */
+
 int is_palindrome(char *s);
+
+/**
+ * real_sqrt - returns the natural square root of an int
+ * @n: int
+ * @i: int
+ *
+ * Return: -1 or int
+ */
+
+int real_sqrt(int n, int i);
+
+/**
+ * _sqrt_recursion - returns the natural square root of an int
+ * @n: int
+ *
+ * Return: -1 or int
+ */
+
+int _sqrt_recursion(int n);
 #endif
