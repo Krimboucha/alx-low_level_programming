@@ -34,7 +34,7 @@ int real_palindrome(char *s, int i)
 {
 	int len;
 
-	len = _strlen_recursion(s);
+	len = strlen(s);
 	if (len == 0 || len == 1)
 	{
 		return (1);
