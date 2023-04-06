@@ -58,5 +58,5 @@ int real_palindrome(char *s, int i)
 
 int is_palindrome(char *s)
 {
-	return (real_palindrome(s, 0));
+	return (real_palindrome(s, 1));
 }

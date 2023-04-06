@@ -102,4 +102,14 @@ int real_sqrt(int n, int i);
  */
 
 int _sqrt_recursion(int n);
+
+/*
+ * real_palindrome - checks if a string is palindrome
+ * @s: pointer on char
+ * @i: int
+ *
+ * Return: 1 if palindrome, 0 if not
+ */
+
+int real_palindrome(char *s, int i);
 #endif
