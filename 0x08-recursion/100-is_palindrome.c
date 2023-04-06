@@ -22,7 +22,7 @@ int _strlen_recursion(char *s)
 	}
 }
 
-/*
+/**
  * real_palindrome - checks if a string is palindrome
  * @s: pointer on char
  * @i: int
