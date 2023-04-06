@@ -22,11 +22,11 @@ int real_function(int n, int i)
 	{
 		return (0);
 	}
-	if (i  >= n/2)
+	if (i  >= n / 2)
 	{
 		return (1);
 	}
-	return (real_function(n, i+1));
+	return (real_function(n, i + 1));
 }
 
 /**
