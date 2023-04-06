@@ -74,4 +74,12 @@ int real_function(int n, int i);
  */
 
 int is_prime_number(int n);
+
+/**
+ * is_palindrome - checks if a string is palindrome
+ * @s: pointer to char
+ *
+ * Return: 1 if it is, 0 if not
+ */
+int is_palindrome(char *s);
 #endif
