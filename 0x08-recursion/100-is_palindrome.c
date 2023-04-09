@@ -1,26 +1,6 @@
 #include "main.h"
 #include <string.h>
-int _strlen_recursion(char *s);
 int real_palindrome(char *s, int i);
-/**
- * _strlen_recursion - returns the length of a string
- * @s: pointer to char
- *
- * Return: int
- */
-
-int _strlen_recursion(char *s)
-{
-	if (*s == '\0')
-	{
-		return (0);
-	}
-	else
-	{
-		s++;
-		return (1 + _strlen_recursion(s));
-	}
-}
 
 /**
  * real_palindrome - checks if a string is palindrome
