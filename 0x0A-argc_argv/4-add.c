@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * main - multiplies two numbers
+ * main - adds positive numbers
  * @argc: number of command line arguments
  * @argv: arrays of these arguments
  *
