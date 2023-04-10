@@ -6,7 +6,7 @@
  * @argc: number of command line arguments
  * @argv: arrays of these arguments
  *
- * Return: int
+ * Return: EXIT_SUCCESS or EXIT_FAILURE
  */
 
 int main(int argc, char *argv[])
