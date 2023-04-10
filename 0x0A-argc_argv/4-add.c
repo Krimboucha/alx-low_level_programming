@@ -7,7 +7,7 @@
  * @argc: number of command line arguments
  * @argv: arrays of these arguments
  *
- * Return: 0
+ * Return: 0 or 1
  */
 
 int main(int argc, char *argv[])
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	while (i  < argc)
 	{
 		j = 0;
-		while (argv[i][j] !='\0')
+		while (argv[i][j] != '\0')
 		{
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
