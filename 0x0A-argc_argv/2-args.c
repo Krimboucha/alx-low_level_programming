@@ -19,5 +19,5 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[i]);
 		i++;
 	}
-	return EXIT_SUCCESS;
+	return (EXIT_SUCCESS);
 }
