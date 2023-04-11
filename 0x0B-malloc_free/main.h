@@ -11,4 +11,14 @@
  */
 
 char *create_array(unsigned int size, char c);
+
+/**
+ * _strdup - returns a pointer to a newly
+ * allocated space in memory
+ * @str: pointer to char
+ *
+ * Return: pointer to char
+ */
+
+char *_strdup(char *str);
 #endif
