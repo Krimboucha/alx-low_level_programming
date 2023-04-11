@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 
-/** str_concat - concatenates two strings
+/**
+ * str_concat - concatenates two strings
  * @s1: pointer to char
  * @s2: pointer to char
  *
