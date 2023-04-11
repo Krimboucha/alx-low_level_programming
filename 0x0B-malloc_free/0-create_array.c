@@ -6,7 +6,7 @@
  * and initializes it with a specific char
  * @size: unsigned int
  * @c: char
- * 
+ *
  * Return: pointer to char
  */
 
