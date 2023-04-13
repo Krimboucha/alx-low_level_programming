@@ -28,4 +28,23 @@ char *string_nconcat(char *s1, char *s2, unsigned int n);
  * Return: pointer to dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n);
+/**
+ * _calloc - allocates memory for an array
+ * @nmemb: unsigned int
+ * @size: unsigned int
+ *
+ * Return: pointer to array
+ */
+void* _calloc(unsigned int nmemb, unsigned int size);
+
+/**
+ * _memset - fills memory with a constant byte
+ * @s: memory area to be filled
+ * @b: constant byte to fill the memory area
+ * @n: the first n bytes of memory to be filled
+ *
+ * Return: a pointer to the memory area s
+ */
+
+char *_memset(char *s, char b, unsigned int n);
 #endif
