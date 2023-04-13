@@ -20,7 +20,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	l1 = strlen(s1);
 	l2 = strlen(s2);
-	newStr = malloc(l1 + n + 1);
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -33,6 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		n = l2;
 	}
+	newStr = malloc(l1 + n + 1);
 	if (newStr == NULL)
 	{
 		return (NULL);
