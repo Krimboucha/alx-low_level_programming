@@ -35,7 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	if (newStr == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 	_memcpy(newStr, s1, l1);
 	_memcpy(newStr + l1, s2, n);
