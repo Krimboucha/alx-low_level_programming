@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
 char *_memset(char *s, char b, unsigned int n);
-
 /**
  * _calloc - allocates memory for an array and sets it to 0
  * @nmemb: number of elements
@@ -9,7 +8,6 @@ char *_memset(char *s, char b, unsigned int n);
  *
  * Return: pointer to the allocated memory
  */
-
 void* _calloc(unsigned int nmemb, unsigned int size)
 {
 	void *ptr;
@@ -26,7 +24,6 @@ void* _calloc(unsigned int nmemb, unsigned int size)
 	_memset(ptr, 0, nmemb * size);
 	return (ptr);
 }
-
 /**
  * _memset - fills memory with a constant byte
  * @s: memory area to be filled
@@ -35,7 +32,6 @@ void* _calloc(unsigned int nmemb, unsigned int size)
  *
  * Return: a pointer to the memory area s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	char *ptr = s;
