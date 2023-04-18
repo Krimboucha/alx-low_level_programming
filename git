@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .;
-git commit -m "C - More  malloc, free";
+git commit -m "C - Preprocessor";
 git push;
