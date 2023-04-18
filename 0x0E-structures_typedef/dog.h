@@ -22,4 +22,13 @@ struct dog
  * @owner: dog owner's name
  */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+
+/**
+  * print_dog - prints a dog struct
+  * @d: dog structure
+  *
+  * Return: void
+  */
+
+void print_dog(struct dog *d);
 #endif
