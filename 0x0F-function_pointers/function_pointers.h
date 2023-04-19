@@ -22,4 +22,15 @@ void print_name(char *name, void (*f)(char *));
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int));
+
+/**
+ * int_index - searches for an integer
+ * @array: pointer to int
+ * @size: int
+ * @cmp: pointer to function
+ *
+ * Return: int
+ */
+
+int int_index(int *array, int size, int (*cmp)(int));
 #endif
