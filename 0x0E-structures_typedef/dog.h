@@ -40,4 +40,11 @@ typedef struct dog dog_t;
  * Return: pointer to a dog structure
  */
 dog_t *new_dog(char *name, float age, char *owner);
+
+/**
+ * free_dog - frees dog
+ * @d: pointer to dog structure
+ */
+
+void free_dog(dog_t *d);
 #endif
