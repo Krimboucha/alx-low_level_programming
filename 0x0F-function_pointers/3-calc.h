@@ -1,5 +1,17 @@
-#ifndef MAIN_H_INCLUDED
-#define MAIN_H_INCLUDED
+#ifndef CALC_H
+#define CALC_H
+
+/**
+ * struct op - op struct
+ * @op: pointer to char
+ * @f: pointer to function
+ */
+
+typedef struct op
+{
+    char *op;
+    int (*f)(int a, int b);
+} op_t;
 
 /**
  * op_add - adds two numbers
