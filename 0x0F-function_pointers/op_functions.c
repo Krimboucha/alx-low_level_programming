@@ -15,19 +15,40 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
-// Function to subtract two integers
+/**
+ * op_sub - substraction
+ * @a: int
+ * @b: int
+ *
+ * Return: int
+ */
+
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
-// Function to multiply two integers
+/**
+ * op_mul - multiplicates two numbers
+ * @a: int
+ * @b: int
+ *
+ * Return: int
+ */
+
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
-// Function to divide two integers
+/**
+ * op_div - divides two numbers
+ * @a: int
+ * @b: int
+ *
+ * Return: int
+ */
+
 int op_div(int a, int b)
 {
 	if (b == 0)
@@ -38,7 +59,14 @@ int op_div(int a, int b)
 	return (a / b);
 }
 
-// Function to take the remainder of two integers
+/**
+ * op_mod - does what mod does to two numbers
+ * @a: int
+ * @b: int
+ *
+ * Return: int
+ */
+
 int op_mod(int a, int b)
 {
 	if (b == 0)
