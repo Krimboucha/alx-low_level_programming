@@ -48,3 +48,4 @@ int op_div(int a, int b);
  */
 
 int op_mod(int a, int b);
+#endif
