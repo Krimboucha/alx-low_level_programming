@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints all the elements of a list_t list
- * @h: pointer to structure
+ * @h: pointer to structure list_t
  *
  * Return: size_t
  */
