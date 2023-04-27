@@ -29,4 +29,13 @@ typedef struct list_s
  */
 
 size_t print_list(const list_t *h);
+
+/**
+ * list_len - Counts the number of elements in a linked list
+ * @h: pointer to list_t struct 
+ *
+ * Return: size_t
+ */
+
+size_t list_len(const list_t *h);
 #endif
