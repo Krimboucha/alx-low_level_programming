@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .;
-git commit -m "C - Variadic functions";
+git commit -m "C - Singly linked lists";
 git push;
