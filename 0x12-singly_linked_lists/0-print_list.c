@@ -9,8 +9,9 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t comp = 0;
+	size_t comp;
 
+	comp = 0;
 	while (h)
 	{
 		if (!(h->str))
