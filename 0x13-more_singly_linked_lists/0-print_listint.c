@@ -1,5 +1,7 @@
 #include "lists.h"
-
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
 /** size_t print_listint - prints all the elements of a listint_t list
  * @h pointer to the first node
  *
@@ -8,13 +10,14 @@
 
 size_t print_listint(const listint_t *h)
 {
-	listint_t *ptr = malloc(sizeof(listint_t));
+	size_t count;
 
-	ptr = h;
-	while (ptr)
+	count = 0;
+	while (h)
 	{
-		printf("%d", ptr->n);
-		ptr = ptr->next;
+		printf("%d\n", h->n);
+		h = h->next;
+		count++;
 	}
-	return (0);
+	return (count);
 }
