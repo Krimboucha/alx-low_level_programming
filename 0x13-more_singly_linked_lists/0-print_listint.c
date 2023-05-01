@@ -2,7 +2,8 @@
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-/** size_t print_listint - prints all the elements of a listint_t list
+
+/** print_listint - prints all the elements of a listint_t list
  * @h pointer to the first node
  *
  * Return: size_t
