@@ -9,7 +9,7 @@
 
 int pop_listint(listint_t **head)
 {
-	listint_t *ptr = malloc(sizeof(listint_t));
+	listint_t *ptr;
 	int data;
 
 	data = 0;
@@ -17,7 +17,7 @@ int pop_listint(listint_t **head)
 		return (data);
 	ptr = *head;
 	data = ptr->n;
+	free(*head);
 	*head = ptr->next;
-	free(ptr);
 	return (data);
 }
