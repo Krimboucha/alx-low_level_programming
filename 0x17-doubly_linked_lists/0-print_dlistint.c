@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_dlistint - prints a doubly linked list
+ * print_dlistint: prints a doubly linked list
  * @h: pointer
  *
  * Return: size_t
@@ -18,5 +18,5 @@ size_t print_dlistint(const dlistint_t *h)
 		h = h->next;
 		count++;
 	}
- 	return (count);
+	return (count);
 }
