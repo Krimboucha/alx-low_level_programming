@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include "lists.h"
-/** dlistint_len -  returns length of a list
+/** 
+ * dlistint_len -  returns length of a list
  * @h: pointer
  *
  * Return: size_t
