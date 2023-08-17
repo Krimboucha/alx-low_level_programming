@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include "lists.h"
 
-/** print_dlistint - prints a doubly linked list
+/**
+ * print_dlistint - prints a doubly linked list
  * @h: pointer
  *
  * Return: size_t

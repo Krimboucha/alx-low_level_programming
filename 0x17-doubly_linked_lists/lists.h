@@ -3,6 +3,13 @@
 #include <stdio.h>
 #include<stdlib.h>
 
+/**
+ * dlistint - doubly linked list
+ * @n: int
+ * @prev: pointer
+ * @next: pointer
+ */
+
 typedef struct dlistint_s
 {
 	int n;
