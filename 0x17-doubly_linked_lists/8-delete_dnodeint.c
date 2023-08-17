@@ -1,7 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include"lists.h"
-
+/**
+ * delete_dnodeint_at_index - ...
+ * @head: ...
+ * @index: ...
+ *
+ * Return: int
+ */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *current = *head;
