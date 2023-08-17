@@ -1,6 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include"lists.h"
+/**
+ * sum_dlistint - ...
+ * @head: ...
+ *
+ * Return: int
+ */
 int sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
