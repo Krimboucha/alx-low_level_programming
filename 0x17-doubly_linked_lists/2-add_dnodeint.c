@@ -1,10 +1,17 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include"lists.h"
-
+/**
+ * add_dnodeint - adds a node
+ * @head: double pointer
+ * @n: int
+ *
+ * Return: dlistint_t
+ */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n) 
 {
 	dlistint_t *new_node = malloc(sizeof(dlistint_t));
+
 	if (new_node == NULL)
 		return NULL;
 	new_node->n = n;
