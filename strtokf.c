@@ -6,7 +6,7 @@
 char *_strchr(char *p, const char ch);
 
 char *_strtok(char *str, const char* delim) {
-	static char *token = NULL;
+	static char *token;
 	char *newstr;
 	int delimCheck;
 

@@ -1,1 +1,0 @@
-‘ce fichier sera compressé en format gzip’
